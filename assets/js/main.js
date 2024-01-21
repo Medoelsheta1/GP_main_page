@@ -5,7 +5,7 @@
     Relase Date: February 2021
 ---------------------------*/
 /*---------------------------
-      Table of Contents
+    Table of Contents
     --------------------
     01- Pre Loading
     02- Mobile Menu
@@ -20,13 +20,12 @@
     11- CounterUp
     12- NiceSelect Plugin
     13- portfolio Filtering and Sorting
-     
- ----------------------------*/
+    ----------------------------*/
 
 $(function () {
 
     "use strict";
-
+    
     // Global variables
     var $win = $(window);
 
