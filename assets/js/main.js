@@ -49,10 +49,14 @@ $(function () {
         if ($win.width() >= 992) {
             var $stickyNavbar = $('.sticky-navbar'),
                 $secondaryNavbar = $('.secondary-nav');
+            var $navbaCollapse = $('.navbar-collapse');
             if ($win.scrollTop() > 150) {
                 $stickyNavbar.addClass('is-sticky');
+                $navbaCollapse.addClass('stickyNav');
             } else {
                 $stickyNavbar.removeClass('is-sticky');
+                $navbaCollapse.removeClass('stickyNav');
+
             }
             if ($secondaryNavbar.length) {
                 if ($win.scrollTop() > $secondaryNavbar.offset().top - 100) {

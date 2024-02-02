@@ -775,7 +775,7 @@ select {
     background-image: linear-gradient(180deg, #091d3e 60%, rgba(9, 29, 62, 0.85) 100%);
 }
 .bg-overlay-primary:before {
-    background-color: rgba(0, 146, 255, 0.85);
+    background-color: rgb(9 10 10 / 85%)
 }
 h1,
 h2,
@@ -2102,6 +2102,12 @@ input[type="radio"] {
 }
 .navbar .logo-light {
     display: none;
+    width: 75px;
+    border-radius: 50%;
+}
+.navbar .logo-dark {
+    width: 75px;
+    border-radius: 50%;
 }
 .navbar .navbar-toggler {
     padding: 0;
@@ -2420,7 +2426,13 @@ input[type="radio"] {
 .header-full .navbar .nav__item .nav__item-link {
     line-height: 65px;
 }
-.header-full .navbar-nav {
+.header-full .navbar-collapse{
+    margin-bottom: 50px;
+}
+.stickyNav {
+    margin-bottom: 0!important;
+}
+.header-full .navbar-nav{
     margin-top: 70px;
 }
 .is-sticky {
@@ -2438,6 +2450,9 @@ input[type="radio"] {
     box-shadow: 0 3px 4px rgba(0, 0, 0, 0.07);
     -webkit-animation: translateHeader 0.8s;
     animation: translateHeader 0.8s;
+}
+.icon-search {
+    margin-top: 10px;
 }
 .is-sticky > .container,
 .is-sticky > .container-fluid {
@@ -4022,7 +4037,7 @@ input[type="radio"] {
     transform: translateY(-50%);
     width: 10px;
     height: 2px;
-    background-color: #091d3e;
+    background-color: #ffff;
 }
 @media (min-width: 1200px) {
     .features-layout4 .feature-item {
@@ -4639,6 +4654,9 @@ input[type="radio"] {
 .testimonial__rating i {
     font-size: 12px;
     color: #0092ff;
+}
+.testimonials  {
+    margin-bottom: 200px!important;
 }
 .testimonials-layout1.testimonials-has-bottom-img {
     padding-bottom: 140px;
@@ -6564,4 +6582,13 @@ input[type="radio"] {
         font-weight: 400;
         margin-bottom: 20px;
     }
+}
+.layout {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0107118c;
+    z-index: 2;
 }
