@@ -2118,10 +2118,22 @@ input[type="radio"] {
   position: relative;
   height: 135px;
 }
+
 .navbar .navbar-brand {
   padding: 0;
   margin: 0;
-  line-height: 135px;
+  width: 50px;
+  height: 50px;
+}
+@media(max-width: 767px) {
+  .navbar .navbar-brand {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 50px;
+  }
+  .testimonial-item {
+    width: 47%!important;
+  }
 }
 .navbar .logo-light {
   display: none;
@@ -2131,6 +2143,11 @@ input[type="radio"] {
 .navbar .logo-dark {
   width: 75px;
   border-radius: 50%;
+}
+@media(max-width: 767px) {
+  .navbar .logo-dark {
+    width: 50px;
+  }
 }
 .navbar .navbar-toggler {
   padding: 0;
@@ -3274,6 +3291,12 @@ input[type="radio"] {
   color: #fff;
   font-size: 18px;
 }
+.footer .footer-top img {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
 .footer .footer-secondary {
   padding-bottom: 44px;
 }
@@ -3401,6 +3424,7 @@ input[type="radio"] {
   }
   .footer .contact-info {
     margin-bottom: 30px;
+    text-align: center;
   }
   .footer .footer-widget-nav li a {
     font-size: 13px;
@@ -4197,6 +4221,9 @@ input[type="radio"] {
   .fancybox-item .fancybox__title {
     font-size: 15px;
     margin-bottom: 5px;
+  }
+  .footer .contact-info {
+    text-align: center;
   }
 }
 .portfolio-item {
@@ -7111,4 +7138,25 @@ hr {
 .faq-card {
   border: 1px solid rgba(0, 0, 0, 0.2);
   margin: 10px 0;
+}
+@media(max-width: 767px) {
+
+  .faq-card .faq-icons {
+    font-size: 14px;
+    text-align: center;
+  }
+  .white h2 {
+    font-size: 17px;
+  }
+  .section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .section .card {
+    margin: 15px;
+  }
 }
