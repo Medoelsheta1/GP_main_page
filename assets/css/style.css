@@ -6737,7 +6737,9 @@ input[type="radio"] {
     margin-bottom: 20px;
   }
 }
-
+hr {
+  width: 50%;
+}
 /* Achievements */
 .main-handing {
   text-align: center;
@@ -7070,7 +7072,10 @@ input[type="radio"] {
   align-items: center;
   font-weight: bold;
 }
-
+hr {
+  width: 40%;
+  border: 1px solid #091d3e;
+}
 .faq-icons i {
   font-size: 25px;
   color: #091d3e;
@@ -7093,10 +7098,15 @@ input[type="radio"] {
   display: none;
 }
 
+#osama {
+  display: block;
+}
 .pannel p {
   color: white;
   font-size: 25px;
-  line-height: 1.4;
+  line-height: 2;
+  margin-top: 26px;
+  margin-bottom: 0px;
 }
 .faq-card {
   border: 1px solid rgba(0, 0, 0, 0.2);
