@@ -2118,10 +2118,10 @@ input[type="radio"] {
   position: relative;
   height: 135px;
 }
-
 .navbar .navbar-brand {
   padding: 0;
   margin: 0;
+<<<<<<< HEAD
   width: 60px;
   height: 90px;
 }
@@ -2134,6 +2134,9 @@ input[type="radio"] {
   .testimonial-item {
     width: 47% !important;
   }
+=======
+  line-height: 135px;
+>>>>>>> bc14304bdea656b27196d7bc22c931896a521b00
 }
 .navbar .logo-light {
   display: none;
@@ -2142,12 +2145,15 @@ input[type="radio"] {
 .navbar .logo-dark {
   width: 50px;
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .navbar .logo-dark {
     width: 45px;
     margin-left: 10px;
   }
 }
+=======
+>>>>>>> bc14304bdea656b27196d7bc22c931896a521b00
 .navbar .navbar-toggler {
   padding: 0;
   border: none;
@@ -3290,12 +3296,6 @@ input[type="radio"] {
   color: #fff;
   font-size: 18px;
 }
-.footer .footer-top img {
-  border-radius: 50%;
-  width: 70px;
-  height: 70px;
-}
-
 .footer .footer-secondary {
   padding-bottom: 44px;
 }
@@ -3423,7 +3423,6 @@ input[type="radio"] {
   }
   .footer .contact-info {
     margin-bottom: 30px;
-    text-align: center;
   }
   .footer .footer-widget-nav li a {
     font-size: 13px;
@@ -4220,9 +4219,6 @@ input[type="radio"] {
   .fancybox-item .fancybox__title {
     font-size: 15px;
     margin-bottom: 5px;
-  }
-  .footer .contact-info {
-    text-align: center;
   }
 }
 .portfolio-item {
@@ -7124,7 +7120,11 @@ hr {
   display: none;
 }
 
+<<<<<<< HEAD
 #show {
+=======
+#os-show {
+>>>>>>> bc14304bdea656b27196d7bc22c931896a521b00
   display: block;
 }
 .pannel p {
@@ -7138,6 +7138,7 @@ hr {
   border: 1px solid rgba(0, 0, 0, 0.2);
   margin: 10px 0;
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .faq-card .faq-icons {
     font-size: 14px;
@@ -7158,3 +7159,5 @@ hr {
     margin: 15px;
   }
 }
+=======
+>>>>>>> bc14304bdea656b27196d7bc22c931896a521b00
