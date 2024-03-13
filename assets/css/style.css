@@ -7147,3 +7147,12 @@ hr {
     margin: 15px;
   }
 }
+.form-control.file {
+  padding-top: 16px;
+}
+.messageforCVS {
+  margin-top: -20px;
+    font-size: 14px;
+    margin-left: 10px;
+    color: #a8a8a8;
+}
