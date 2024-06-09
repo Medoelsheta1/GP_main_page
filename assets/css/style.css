@@ -4607,6 +4607,8 @@ input[type="radio"] {
 .member .member__img img {
   width: 100%;
   border-radius: 4px;
+  object-fit: cover;
+  height: 350px;
 }
 .member .member__info {
   padding-top: 21px;
@@ -4654,7 +4656,7 @@ input[type="radio"] {
 .member .social-icons li a {
   color: #fff;
   opacity: 0;
-  padding: 15px;
+  padding: 5px;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
